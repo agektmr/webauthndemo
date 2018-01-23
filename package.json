@@ -1,0 +1,30 @@
+{
+  "name": "webauthndemo",
+  "version": "0.0.1",
+  "description": "An example Java Relying Party implementation of the [WebAuthn specification](https://w3c.github.io/webauthn/).",
+  "main": "src/main/server.js",
+  "scripts": {
+    "start": "node src/main/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/google/webauthndemo.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/google/webauthndemo/issues"
+  },
+  "homepage": "https://github.com/google/webauthndemo#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.3.3",
+    "body-parser": "^1.18.2",
+    "cbor": "^3.0.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "seed-random": "^2.2.0"
+  }
+}
